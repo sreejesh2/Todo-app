@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+
+
+}
+.navc{
+    background-color: rgb(135, 166, 230);
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+.logo{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.logole{
+    font-size:25px;
+    font-weight: bolder;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:black;
+    background-color: black;
+}
+.usname{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.hed{
+    color: rgb(208, 219, 230);
+    text-align: center;
+}
+.cros{
+    height: 400px;
+    width: 100%;
+}
+.c{
+    height: 570px;
+    width: 100%;
+}
+#name{
+    color: chartreuse;
+    font-style: italic;
+}
+.addtodo{
+    float: right;
+    background-color: rgb(75, 69, 50);
+    color: rgb(243, 244, 245);
+    font-style: italic;
+    font-weight: 500;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(251, 249, 249, 0.17) 0px -23px 25px 0px inset, rgba(251, 249, 249, 0.15) 0px -36px 30px 0px inset, rgba(250, 247, 247, 0.1) 0px -79px 40px 0px inset, rgba(253, 252, 252, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(243, 248, 251, 0.09) 0px 8px 4px, rgba(243, 241, 241, 0.09) 0px 16px 8px, rgba(243, 241, 241, 0.09) 0px 32px 16px;}
+    .addtodo:hover{
+        color: aliceblue;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+    }
+    .cnt{
+        width: 100px;
+        height: 60px;
+        background-color: cyan;
+        text-decoration: none;
+        color: rgb(21, 122, 210);
+        font-style: italic;
+        font-weight: 500;
+        border-radius: 5px;
+        padding: 6px;
+        margin-top: 10px;
+    }
+    .cntdiv{
+        margin: 20px;
+        width: 200px;
+        height: 100px;
+    }
+    .todos{
+        display: flex;
+    }
+    .con{
+        display: flex;
+        justify-content: center;
+    
+    }
+  

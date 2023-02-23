@@ -1,0 +1,23 @@
+
+{% extends "includes/main.html" %}
+{% block title %}
+  add-todo
+{% endblock title %}
+{% block content %}
+
+
+ <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 ">
+          <div class="add ">
+              <form method="POST" action="">
+                {% csrf_token %}
+               {{form.as_p}}
+            <button class="btn btn-success">Add</button>
+              </form>
+            </div>
+        </div>
+    </div>
+
+ </div>
+{% endblock content %}

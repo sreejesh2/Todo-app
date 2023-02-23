@@ -1,0 +1,31 @@
+{% extends "includes/main.html" %}
+{% block title %}
+  Home
+{% endblock title %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-12 mt-4">
+    {%if  request.user.is_authenticated %}        
+        <h1 class="hed">Welcome <span id="name">{{request.user}}</span> Create Your Todo..</h1>
+        <a class="addtodo" href="{% url 'todo' %}">Todo List</a>
+    {%else%}
+    <h1 class="hed">Welcome.. Please Login ....!</h1>
+    {% endif %}
+    
+    {%for msg in messages%}
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Hey...</strong>{{msg}}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    {% endfor %} 
+   
+</div>
+</div>
+</div>
+   <div class="cros h-75">
+    {% include "includes/carosal.html" %}
+   </div> 
+   
+{% endblock content %}
